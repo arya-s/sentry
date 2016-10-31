@@ -301,7 +301,6 @@ AUTHENTICATION_BACKENDS = (
     'social_auth.backends.github.GithubBackend',
     'social_auth.backends.bitbucket.BitbucketBackend',
     'social_auth.backends.trello.TrelloBackend',
-    'social_auth.backends.asana.AsanaBackend',
 )
 
 SOCIAL_AUTH_USER_MODEL = AUTH_USER_MODEL = 'sentry.User'
